@@ -1,0 +1,14 @@
+<p class="desc">Visualize the infection spread! The order in which they are infected on this graph is the order in which they were infected on the backend. <br>
+
+Example: With a target of 10 and a range of 2, any cluster of size 8-12 will be eligible for infestation.<br></p>
+<form method="GET" accept-charset="utf-8">
+  <label for="target">Target:</label>
+  <input type="number" name="target" class="form-control" placeholder="Enter desired number of infected nodes"><br>
+
+  <label for="range">Range:</label>
+  <input type="number" name="range" class="form-control" placeholder="Enter desired amount of leeway"><br>
+
+  <button class="btn" type="button" id="reset">Reset</button>
+  <button class="btn btn-primary" type="submit" id="infect">Infect</button>
+</form>
+<svg id="graph"></svg>
