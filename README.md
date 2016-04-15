@@ -38,3 +38,14 @@ example; feel free to play around! Nodes turn red as they are infected. Hit
 To run the specs, `cd` into the directory, run `bundle install`, and then run
 `rspec spec/`. I ran this with Ruby version 2.1.3 and Bundler version 1.7.11,
 though I doubt you will need those version numbers.
+
+## If I had more time...
+
+This was a really fun project and there are a lot of things I could do to
+improve upon it! One thing is obviously performance. Solving this via subsets
+starts to run into big issues with a large number of distinct subgraphs. The
+partitioning still would be O(n), so I could partition and then maybe use a
+greedy algorithm if there were a lot of distinct sugraphs.
+
+Also, my Javascript code especially could use some refactoring - it's not the
+prettiest code :) .
