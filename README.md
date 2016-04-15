@@ -1,3 +1,7 @@
+<h1><a href="http://dry-taiga-44278.herokuapp.com/">Infection</a></h1>
+Check out the site <a href="http://dry-taiga-44278.herokuapp.com/">here!</a>
+
+
 # Overview
 
 The purpose of this project is to simulate a way to roll out A-B testing in a
