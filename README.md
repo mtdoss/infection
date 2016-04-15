@@ -1,6 +1,7 @@
 <h1><a href="http://dry-taiga-44278.herokuapp.com/">Infection</a></h1>
 Check out the site <a href="http://dry-taiga-44278.herokuapp.com/">here!</a>
 
+![Infection image](http://imgur.com/BkD2kmI.jpg "Visualization")
 
 # Overview
 
